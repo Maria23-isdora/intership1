@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+      width: 100%;
+    height: 2.5rem;
+    background: transparent;
+    /* background-color: rgb(223, 224, 231); */
+    color: rgb(242, 237, 237);
+    text-decoration: none;
+    padding: 1rem,1rem;
+
+    
+}
+.lefnav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+    gap: 1rem;
+    border: none;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* .navlist{
+    text-decoration-line: none;
+    text-decoration: none;
+    text-wrap: nowrap;
+} */
+
+
+
+.cafelogo{
+    height: 3rem;
+    width: 2rem;
+}
+.backimage{
+    background-image: url('https://images8.alphacoders.com/409/thumb-1920-409556.jpg');
+    height: 100vh;
+    width: 100%; ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+.text{
+    padding: 7rem;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    
+    
+}
+.Resbutton{
+    border: none;
+    height: 5 rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.5px, 0.5px;
+    gap: 1rem;
+    
+}
+
